@@ -4,7 +4,7 @@
   "description": "Tutorial for using NoSQL database",
   "main": "connection.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/dongatuna/mongodbtutorial#readme",
   "dependencies": {
+    "mocha": "^3.2.0",
     "mongoose": "^4.8.5"
   }
 }

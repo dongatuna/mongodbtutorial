@@ -8,3 +8,11 @@ npm init: start the package.json file
 
 Databases contain collections and collections contain models.
 Models have attributes.  Schema describe models
+
+Will use mocha testing to:
+ --test our connection with the database
+ --create records
+ --read records
+ --update records
+ --delete records
+
