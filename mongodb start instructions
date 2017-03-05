@@ -1,0 +1,10 @@
+mongodb start instructions	
+
+go to the root: C:\
+cd into data folder: cd data
+run "C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe"
+
+npm init: start the package.json file
+
+Databases contain collections and collections contain models.
+Models have attributes.  Schema describe models

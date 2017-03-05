@@ -1,0 +1,28 @@
+{
+  "name": "mongodbtutorial",
+  "version": "1.0.0",
+  "description": "Tutorial for using NoSQL database",
+  "main": "connection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongatuna/mongodbtutorial.git"
+  },
+  "keywords": [
+    "NoSQL",
+    "mongo",
+    "mongoose",
+    "tutorial"
+  ],
+  "author": "Don Gatuna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongatuna/mongodbtutorial/issues"
+  },
+  "homepage": "https://github.com/dongatuna/mongodbtutorial#readme",
+  "dependencies": {
+    "mongoose": "^4.8.5"
+  }
+}
