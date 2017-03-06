@@ -16,3 +16,18 @@ Will use mocha testing to:
  --update records
  --delete records
 
+ 3 Mongoose methods for deleting reocrds
+ --char.remove() //this is called on a single instance
+ --MarioChar.remove() //this refers to model itself -- can pass criteria for models you want deleted e.g. 
+ --MarioChar.findOneAndRemove() //refers to the first one and removes it
+
+ Mongoose methods for updating records
+ -- char.update()
+ -- MarioChar.update()
+ -- MarioChar.findOneAndUpdate()
+
+The process for creating/updating
+Create and save a new record to the db
+Use findAndUpdate to update the name of the record
+Try to findOne int the db (the one we have just updated)
+Assert that the result has the updated property value
